@@ -321,19 +321,22 @@ body {
   vertical-align: middle;
 }
 
+.rating-kinopoisk-pic {
+  width: 60px;
+  cursor: pointer;
+}
+
+a {
+  .rating-imdb-pic {
+    cursor: pointer;
+  }
+}
+
 .rating-imdb-pic {
   width: 40px;
   height: 37px;
   display: table-cell;
   vertical-align: middle;
-}
-
-a {
-  .rating-imdb-pic,
-  .rating-kinopoisk-pic {
-    width: 60px;
-    cursor: pointer;
-  }
 }
 
 .rating-number {
