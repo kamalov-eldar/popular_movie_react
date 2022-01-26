@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/popular_movie_react/static/css/main.f3afbd75.chunk.css",
+    "main.css": "/popular_movie_react/static/css/main.ec93532f.chunk.css",
     "main.js": "/popular_movie_react/static/js/main.c736a1f2.chunk.js",
     "main.js.map": "/popular_movie_react/static/js/main.c736a1f2.chunk.js.map",
     "runtime-main.js": "/popular_movie_react/static/js/runtime-main.c7a71a74.js",
@@ -10,14 +10,14 @@
     "static/js/2.7ca859bb.chunk.js.map": "/popular_movie_react/static/js/2.7ca859bb.chunk.js.map",
     "index.html": "/popular_movie_react/index.html",
     "static/css/2.383c0125.chunk.css.map": "/popular_movie_react/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.f3afbd75.chunk.css.map": "/popular_movie_react/static/css/main.f3afbd75.chunk.css.map",
+    "static/css/main.ec93532f.chunk.css.map": "/popular_movie_react/static/css/main.ec93532f.chunk.css.map",
     "static/js/2.7ca859bb.chunk.js.LICENSE.txt": "/popular_movie_react/static/js/2.7ca859bb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c7a71a74.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.7ca859bb.chunk.js",
-    "static/css/main.f3afbd75.chunk.css",
+    "static/css/main.ec93532f.chunk.css",
     "static/js/main.c736a1f2.chunk.js"
   ]
 }
