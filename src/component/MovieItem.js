@@ -6,7 +6,7 @@ const API_KEY = "8ccb0f71-adf6-4b8f-9927-980b4f08e9d5";
 export const MovieItem = (props) => {
   const [modalInfoMovie, setModalInfoMovie] = useState(false); // показывать инф. о фильме
   const [modalShowPoster, setModalPoster] = useState(false); // показывать постер крупнее
-  const [infoMovie, setInfoMovie] = useState([]);
+  const [infoMovie, setInfoMovie] = useState();
 
   const genresStr = props.movie.genres.map((itemGenre) => itemGenre.genre).join(" / ");
   const countriesStr = props.movie.countries.map((itemCountry) => itemCountry.country).join(" / ");
@@ -40,7 +40,7 @@ export const MovieItem = (props) => {
           <Modal.Header closeButton>
             <Modal.Title>{movie.nameRu}</Modal.Title>
           </Modal.Header>
-          <MovieInfo infoMovie={infoMovie}> </MovieInfo>
+          <MovieInfo infoMovie={infoMovie}> </MovieInfo> {/* перенести  {modalInfoMovie} */}
         </Modal>
         <Modal closeButton show={modalShowPoster} size="xl" onHide={() => setModalPoster(false)}>
           <Modal.Body >

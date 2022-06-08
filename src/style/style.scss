@@ -209,14 +209,15 @@ body {
 }
 
 .modal-content {
-  width: auto !important;
+  // width: none !important;
+   width: auto !important;
+   border: none !important;;
   .modal-body {
     text-align: center !important;
   }
 }
 .modal-body {
   padding: 0 !important;
-  width: 500px;
 }
 
 .modal-container {

@@ -15,9 +15,7 @@ export const Movies = () => {
     handleFetchData();
   }, []);
 
-  /* useEffect(() => {
-    handleFetchData();
-  }, [setFilms]); */
+ 
 
   /**************************************/
 
